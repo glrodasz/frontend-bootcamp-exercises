@@ -2,6 +2,11 @@
 
 ## Environment Setup
 
-* paso1
-* paso 2
+* Install Git and Git bash
+* Intall Node.js
+
+## Webtask
+
+* Go to webtask.io
+
 
