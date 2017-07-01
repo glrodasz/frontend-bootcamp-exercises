@@ -94,9 +94,166 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+  background: #0E1112;
+  color: #D4D7D6;
+  min-height: 100%;
+}
+
+.title {
+  background: #0E1112;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #060708;
+}
+
+.title-icons {
+  width: 12px;
+  height: 12px;
+  background: #FDBD41;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin: 2px 5px 0;
+  float: left;
+}
+
+.title-icons::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #FC615D;
+  border-radius: 50%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-top: -1px;
+  margin-left: -22px;
+}
+
+.title-icons::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #34C84A;
+  border-radius: 50%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+
+.tree-view,
+.workspace {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+
+.tree-view {
+  background: #090B0D;
+  width: 25%;
+  border-right: 4px solid #0E1112;
+}
+
+.tree-view h2 {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 20px;
+}
+
+.tree-view ul {
+  list-style-type: none;
+  overflow: auto;
+  height: 100%;
+}
+
+.tree-view ul li {
+  font-size: 14px;
+  white-space: nowrap;
+  margin: 10px 5px;
+}
+
+.tree-view ul li:before {
+  content: ">";
+  position: absolute;
+  margin-left: -15px;
+  color: chocolate;
+}
+
+.tree-view ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.tree-view-top {
+  background: #15191B;
+  border-bottom: 2px solid #519ABA;
+  height: 50px;
+}
+
+.workspace {
+  width: 75%;
+  height: 100%;
+}
+
+.workspace-tabs {
+  background: #15191B;
+}
+
+.workspace-area {
+  background: #0E1112;
+  width: 100px;
+  height: 100%;
+}
+
+.workspace-numbers,
+.workspace-body {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.workspace-numbers {
+  background: #090B0D;
+  width: 100px;
+  height: 100%;
+}
+
+.workspace-body {
+  width: calc(100% - 100px);
+}
 
 
+.tab {
+  display: inline-block;
+  vertical-align: top;
+  background: #111213;
+  border-bottom: 2px solid #519ABA;
+  height: 50px;
+  padding: 15px 20px;
+  width: 150px;
+  font-size: 13px;
+}
 
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-close {
+  float: right;
+}
 
 
 
