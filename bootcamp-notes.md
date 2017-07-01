@@ -1,6 +1,3 @@
-# Front-End Bootcamp
-This is an example of a notes taken in the Front-End Bootcamp.
-
 ## Environment Setup
 
 ### Install Git and Git bash
