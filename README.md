@@ -17,7 +17,7 @@ These are some of the exercises done in the Front-End Bootcamp.
 |4.|Jhon Alexander|https://github.com/slimshady060/bootcam-frontend|
 |5.|Juan Esteban|https://github.com/juannestebann1/bootcamp-frontend|
 |6.|Juan Lopez|https://github.com/sebastian77790/frontend-bootcamp|
-|7.|Lina Montaño|https://github.com/sebastian77790/frontend-bootcamp|
+|7.|Lina Montaño|https://github.com/linamontano/FrontEnd_BootCamp|
 |8.|Luisa Vargas|https://github.com/luiivg9410/frontend-bootcamp|
 |9.|Mileidy|https://github.com/Mileidy25/FrontEnd-Bootcamp|
 |10.|Miller Ossa|https://github.com/millerOZ/bootcamp-frontend|
