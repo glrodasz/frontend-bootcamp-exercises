@@ -13,7 +13,7 @@ I'm a passionate and proactive person that likes learning new things every day. 
 
 ## Skills
 * **JavaScript** including **ES2015**.
-* **JavaScript MV\* ** frameworks.
+* **JavaScript MV_ ** frameworks.
 * **HTML5** and related APIs.
 * **CSS** including **CSS3**.
 * **Node.js** for build web applications.
