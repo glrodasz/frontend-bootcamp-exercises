@@ -5,7 +5,7 @@
 * Website: [guillermorodas.com](guillermorodas.com)
 
 ## Summary
-I'm a passionate and proactive person that likes learn new things every day. I like team work especially teaching and helping work mates.
+I'm a passionate and proactive person that likes learning new things every day. I like team work especially teaching and helping work mates.
 
 ## Languages
 * **Spanish:** Native.
