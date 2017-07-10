@@ -5,7 +5,7 @@
 * Website: [guillermorodas.com](guillermorodas.com)
 
 ## Summary
-I'm a passionate and proactive person that likes learn new things every day. I like team work especially teaching and helping work mates.
+I'm a passionate and proactive person that likes learning new things every day. I like team work especially teaching and helping work mates.
 
 ## Languages
 * **Spanish:** Native.
@@ -13,7 +13,7 @@ I'm a passionate and proactive person that likes learn new things every day. I l
 
 ## Skills
 * **JavaScript** including **ES2015**.
-* **JavaScript MV* ** frameworks.
+* **JavaScript MV_ ** frameworks.
 * **HTML5** and related APIs.
 * **CSS** including **CSS3**.
 * **Node.js** for build web applications.

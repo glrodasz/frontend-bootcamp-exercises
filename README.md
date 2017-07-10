@@ -1,6 +1,5 @@
 # Front-End Bootcamp
-These are some of
-THE exercises done in the Front-End Bootcamp.
+These are some of exercises done in the Front-End Bootcamp.
 
 ## Markdown
 * [Bootcamp Notes](bootcamp-notes.md)
