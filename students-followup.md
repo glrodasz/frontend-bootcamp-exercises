@@ -1,7 +1,7 @@
 # Students Follow-up
 
-## List
-|Name|Repo|BN|CVMD|
+## Student list
+|Name|Repository|📝|📕|
 |---|---|---|---|
 |Alejandro Yepes|[lexoye](https://github.com/lexoye/frontend-bootcamp)|✅|✅|
 |Alvaro Guerreo|[alvarojguerrero](https://github.com/alvarojguerrero/bootcamp-frontend)|✅|✅|
@@ -19,8 +19,12 @@
 |Sergio Quintero|[checho221](https://github.com/checho221/frontend-bootcamp)|❓|❓|
 |William Serna|[wsernalaverde](https://github.com/wsernalaverde/frontend-bootcamp)|✅|❓|
 
-## Reference
-|Code|Description|
+## Emoji reference
+|Emoji|Description|
 |---|---|
-|BN|Bootcamp Notes in Markdown|
-|CVMD|Curriculum Vitae in Markdown|
+|📝|Bootcamp Notes in Markdown|
+|📕|Curriculum Vitae in Markdown|
+|📗|Curriculum Vitae in HTML|
+|📘|Curriculum Vitae with Semantic HTML|
+|📙|Curriculum Vitae with Contact form|
+|💾|Webtask exercise|
