@@ -13,7 +13,7 @@
 |Juan S. Lopez|[sebastian77790](https://github.com/sebastian77790/frontend-bootcamp)|✅|✅|
 |Lina Montaño|[linamontano](https://github.com/linamontano/FrontEnd_BootCamp)|✅|✅|
 |Luisa Vargas|[luiivg9410](https://github.com/luiivg9410/frontend-bootcamp)|❓|❓|
-|Mikler Ossa|[millerOZ](https://github.com/millerOZ/bootcamp-frontend)|❓|❓|
+|Miller Ossa|[millerOZ](https://github.com/millerOZ/bootcamp-frontend)|❓|❓|
 |Mileidy Galván|[Mileidy25](https://github.com/Mileidy25/FrontEnd-Bootcamp)|✅|❓|
 |Sara Santacruz|[SaraIsabelSantacruz](https://github.com/SaraIsabelSantacruz/bootcamp-frontend)|✅|❓|
 |Sergio Quintero|[checho221](https://github.com/checho221/frontend-bootcamp)|❓|❓|
