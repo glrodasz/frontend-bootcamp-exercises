@@ -6,12 +6,32 @@
 
 body {
   background: #ecf0f1;
+  font-family: 'Roboto', sans-serif;
 }
 
 .carousel-grid {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.carousel {
+.carousel-item {
+  border: 10px solid white;
+  border-radius: 2px;
+  margin: 50px 20px;
+  width: 350px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
 
+.carousel-item img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-item figcaption {
+  height: 40px;
+  padding: 10px 0;
+  font-size: 14px;
+  background: white;
+  widows: 100%;
 }
