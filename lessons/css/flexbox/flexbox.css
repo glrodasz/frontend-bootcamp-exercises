@@ -1,0 +1,34 @@
+.flex-container {
+  border: 2px dashed rebeccapurple;
+  border-radius: 3px;
+  margin: 10px 0;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.flex-container .flex-item:nth-child(1) {
+  order: 1;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.flex-container .flex-item:nth-child(2) {
+  flex-grow: 2;
+}
+
+.flex-item {
+  background: tomato;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 3px;
+}
