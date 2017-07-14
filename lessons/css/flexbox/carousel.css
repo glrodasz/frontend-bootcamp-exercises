@@ -15,11 +15,15 @@ body {
   justify-content: center;
 }
 
+.carousel-grid .carousel-item {
+  cursor: pointer;
+}
+
 .carousel-item {
   border: 10px solid white;
   border-radius: 2px;
   margin: 50px 20px;
-  width: 350px;
+  width: 200px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
 
@@ -30,14 +34,13 @@ body {
 }
 
 .carousel-item figcaption {
-  height: 80px;
+  height: 40px;
   padding: 10px 0;
   font-size: 14px;
   background: white;
 }
 
 .carousel {
-  border: 5px dashed rebeccapurple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,4 +83,8 @@ body {
   color: black;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.hidden {
+  display: none;
 }
