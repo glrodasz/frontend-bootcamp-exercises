@@ -28,3 +28,4 @@
 |📘|Curriculum Vitae with Semantic HTML|
 |📙|Curriculum Vitae with Contact form|
 |💾|Webtask exercise|
+|🔧|Repository structure|
