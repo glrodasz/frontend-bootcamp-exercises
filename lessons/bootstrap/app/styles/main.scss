@@ -1,0 +1,23 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/slick-carousel/slick/slick.scss";
+// endbower
+
+body {
+  background: papayawhip;
+}
+
+.show-grid {
+  margin-bottom: 15px;
+}
+
+.container {
+  border: 1px solid tomato;
+  height: 100vh;
+}
+
+.col {
+  font-size: 22;
+  border: 1px solid rebeccapurple;
+}
