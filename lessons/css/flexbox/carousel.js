@@ -1,16 +1,23 @@
-// Declaraciones de modulos
-
 // Modulo Carousel
 var carousel = (function() {
+  // Selectors
   var carouselGridSelector = '.carousel-grid .carousel-item';
+  var carouselModalSelector = '.carousel-modal';
+  var carouselCloseButtonSelector = '.carousel-modal-close';
+
+  // Elements
+  var carouselGridItems = document.querySelectorAll(carouselGridSelector);
+  var carouselModalElement = document.querySelector(carouselModalSelector);
+  var carouselCloseButtonElement =  document.querySelector(carouselCloseButtonSelector);
 
   var showCarousel = function () {
-    // Mostrar el carousel
-    // toggleBody
+    carouselModalElement.classList.remove('hidden')
+    toggleBodyOverflowHidden();
   }
 
   var hideCarousel = function() {
-    // toggleBody
+    carouselModalElement.classList.add('hidden')
+    toggleBodyOverflowHidden();
   }
 
   var nextSlide = function() {
@@ -30,11 +37,22 @@ var carousel = (function() {
   }
 
   var toggleBodyOverflowHidden =  function() {
+    var body = document.querySelector('body');
+    var bodyOverflow = body.style.overflow;
 
+    if (bodyOverflow === 'hidden') {
+      body.style.overflow = 'visible';
+    } else {
+      body.style.overflow = 'hidden';
+    }
   }
 
   var init = function() {
+    carouselGridItems.forEach(function(gridItem){
+      gridItem.addEventListener('click', showCarousel);
+    })
 
+    carouselCloseButtonElement.addEventListener('click', hideCarousel);
   };
 
   return {
@@ -45,24 +63,4 @@ var carousel = (function() {
 // Entrada de la app
 document.addEventListener('DOMContentLoaded', function() {
   carousel.init();
-});
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var carouselGridSelector = '.carousel-grid .carousel-item';
-  var gridItems = document.querySelectorAll(carouselGridSelector);
-
-  gridItems.forEach(function(gridItem) {
-    gridItem.addEventListener('click', function() {
-      // var item = this;
-      // var parent = item.parentElement;
-      // var items = parent.children;
-      // var itemsLen = items && items.length;
-
-      var carousel = document.querySelector('.carousel');
-      carousel.classList.remove('hidden');
-
-
-    });
-  });
 });

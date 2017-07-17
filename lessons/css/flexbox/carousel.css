@@ -40,11 +40,11 @@ body {
   background: white;
 }
 
-.carousel {
+.carousel-modal {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -52,7 +52,7 @@ body {
   z-index: 5;
 }
 
-.carousel::before {
+.carousel-modal::before {
   content: '';
   position: absolute;
   top: 0;
@@ -63,7 +63,7 @@ body {
   z-index: -5;
 }
 
-.carousel-close::after {
+.carousel-modal-close::after {
   background: black;
   color: white;
   border-radius: 50%;
@@ -84,18 +84,18 @@ body {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-prev,
-.carousel-next {
+.carousel-modal-prev,
+.carousel-modal-next {
   font-size: 40px;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
   cursor: pointer;
 }
 
-.carousel-next {
+.carousel-modal-next {
   float: right;
 }
 
-.carousel-controls {
+.carousel-modal-controls {
   width: 65%;
   position: absolute;
   min-width: 320px;
@@ -103,16 +103,18 @@ body {
   color: white;
 }
 
-.carousel-content .carousel-item {
+.carousel-modal-content .carousel-item {
   display: none;
   position: relative;
+  width: 400px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-content .carousel-item:first-child {
+.carousel-modal-content .carousel-item:first-child {
   display: block;
 }
 
-.carousel-content .carousel-item figcaption {
+.carousel-modal-content .carousel-item figcaption {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -124,11 +126,7 @@ body {
   padding-right: 10px;
 }
 
+/* Utils */
 .hidden {
   display: none;
-}
-
-.carousel-content .carousel-item {
-  width: 400px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
