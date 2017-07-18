@@ -110,10 +110,6 @@ body {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-modal-content .carousel-item:first-child {
-  display: block;
-}
-
 .carousel-modal-content .carousel-item figcaption {
   position: absolute;
   bottom: 0;

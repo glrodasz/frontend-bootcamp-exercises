@@ -6,6 +6,9 @@ var carousel = (function() {
   var carouselModalSelector = '.carousel-modal';
   var carouselModalContentSelector = '.carousel-modal-content';
   var carouselCloseButtonSelector = '.carousel-modal-close';
+  var carouselModalButtonPrevSelector = '.carousel-modal-prev';
+  var carouselModalButtonNextSelector = '.carousel-modal-next';
+  var carouselSlidesSelector = '.carousel-modal-content .carousel-item';
 
   // Elements
   var carouselGridElement = document.querySelector(carouselGridSelector);
@@ -13,11 +16,25 @@ var carousel = (function() {
   var carouselModalElement = document.querySelector(carouselModalSelector);
   var carouselCloseButtonElement =  carouselModalElement.querySelector(carouselCloseButtonSelector);
   var carouselModalContentElement = carouselModalElement.querySelector(carouselModalContentSelector)
+  var carouselModalButtonPrevElement = carouselModalElement.querySelector(carouselModalButtonPrevSelector);
+  var carouselModalButtonNextElement = carouselModalElement.querySelector(carouselModalButtonNextSelector);
 
-  var showCarousel = function () {
+  // Variables
+  var currentSlideIndex = 0;
+  var slidesLen = carouselGridItems.length;
+
+  var getElementIndex = function (arrayLike, element) {
+    return Array.from(arrayLike).indexOf(element);
+  }
+
+  var showCarousel = function (event) {
+    var clickedGridItem = this;
+    currentSlideIndex = getElementIndex(carouselGridItems, clickedGridItem);
+
     carouselModalElement.classList.remove('hidden')
     toggleBodyOverflowHidden();
     cloneCarouselItems();
+    showCurrentSlide(currentSlideIndex);
   }
 
   var hideCarousel = function() {
@@ -26,15 +43,33 @@ var carousel = (function() {
   }
 
   var nextSlide = function() {
+    if(currentSlideIndex === (slidesLen - 1)) {
+      currentSlideIndex = 0;
+    } else {
+      currentSlideIndex += 1;
+    }
 
+    showCurrentSlide(currentSlideIndex);
   }
 
   var prevSlide = function() {
+    if (currentSlideIndex === 0) {
+      currentSlideIndex = (slidesLen - 1);
+    } else {
+      currentSlideIndex -= 1;
+    }
 
+    showCurrentSlide(currentSlideIndex);
   }
 
-  var setCurrentSlide = function() {
+  var hideSlides = function(gridItem) {
+    gridItem.style.display = 'none';
+  }
 
+  var showCurrentSlide = function(currentIndex) {
+    var carouselSlideElements = document.querySelectorAll(carouselSlidesSelector)
+    carouselSlideElements.forEach(hideSlides);
+    carouselSlideElements[currentIndex].style.display = 'block';
   }
 
   var cloneCarouselItems = function() {
@@ -61,6 +96,8 @@ var carousel = (function() {
     })
 
     carouselCloseButtonElement.addEventListener('click', hideCarousel);
+    carouselModalButtonPrevElement.addEventListener('click', prevSlide);
+    carouselModalButtonNextElement.addEventListener('click', nextSlide);
   };
 
   return {
