@@ -23,13 +23,14 @@ var carousel = (function() {
   var currentSlideIndex = 0;
   var slidesLen = carouselGridItems.length;
 
-  var getElementIndex = function (arrayLike, element) {
+  // Convert an arrayLike into Array and get the index given and element
+  var getElementIndexFromArrayLike = function (arrayLike, element) {
     return Array.from(arrayLike).indexOf(element);
   }
 
   var showCarousel = function () {
     var clickedGridItem = this;
-    currentSlideIndex = getElementIndex(carouselGridItems, clickedGridItem);
+    currentSlideIndex = getElementIndexFromArrayLike(carouselGridItems, clickedGridItem);
 
     carouselModalElement.classList.remove('hidden')
     toggleBodyOverflowHidden();
