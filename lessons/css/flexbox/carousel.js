@@ -27,7 +27,7 @@ var carousel = (function() {
     return Array.from(arrayLike).indexOf(element);
   }
 
-  var showCarousel = function (event) {
+  var showCarousel = function () {
     var clickedGridItem = this;
     currentSlideIndex = getElementIndex(carouselGridItems, clickedGridItem);
 
