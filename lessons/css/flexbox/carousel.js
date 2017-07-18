@@ -1,18 +1,23 @@
 // Modulo Carousel
 var carousel = (function() {
   // Selectors
-  var carouselGridSelector = '.carousel-grid .carousel-item';
+  var carouselGridSelector = '.carousel-grid';
+  var carouselItemsSelector = '.carousel-item';
   var carouselModalSelector = '.carousel-modal';
+  var carouselModalContentSelector = '.carousel-modal-content';
   var carouselCloseButtonSelector = '.carousel-modal-close';
 
   // Elements
-  var carouselGridItems = document.querySelectorAll(carouselGridSelector);
+  var carouselGridElement = document.querySelector(carouselGridSelector);
+  var carouselGridItems = carouselGridElement.querySelectorAll(carouselItemsSelector);
   var carouselModalElement = document.querySelector(carouselModalSelector);
-  var carouselCloseButtonElement =  document.querySelector(carouselCloseButtonSelector);
+  var carouselCloseButtonElement =  carouselModalElement.querySelector(carouselCloseButtonSelector);
+  var carouselModalContentElement = carouselModalElement.querySelector(carouselModalContentSelector)
 
   var showCarousel = function () {
     carouselModalElement.classList.remove('hidden')
     toggleBodyOverflowHidden();
+    cloneCarouselItems();
   }
 
   var hideCarousel = function() {
@@ -33,7 +38,10 @@ var carousel = (function() {
   }
 
   var cloneCarouselItems = function() {
-
+    if (carouselModalContentElement && carouselModalContentElement.children && carouselModalContentElement.children.length <= 0) {
+      var clonedCarouselGrid = carouselGridElement.cloneNode(true);
+      carouselModalContentElement.appendChild(clonedCarouselGrid);
+    }
   }
 
   var toggleBodyOverflowHidden =  function() {
