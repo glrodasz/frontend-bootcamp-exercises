@@ -29,8 +29,7 @@ var carousel = (function() {
   }
 
   var showCarousel = function () {
-    var clickedGridItem = this;
-    currentSlideIndex = getElementIndexFromArrayLike(carouselGridItems, clickedGridItem);
+    currentSlideIndex = getElementIndexFromArrayLike(carouselGridItems, this);
 
     carouselModalElement.classList.remove('hidden')
     toggleBodyOverflowHidden();
