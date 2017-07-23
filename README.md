@@ -6,4 +6,4 @@ Front-End Bootcamp example exercises.
 * [Curriculum Vitae](curriculum-vitae.md)
 
 ## HTML
-* Curriculum Vitae [[Source](docs)|[Preview](https://glrodasz.github.io/frontend-bootcamp/)]
+* Curriculum Vitae [[Source](docs)|[Preview](https://glrodasz.github.io/frontend-bootcamp-exercises/)]
