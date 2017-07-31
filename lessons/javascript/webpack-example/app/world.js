@@ -1,1 +1,1 @@
-console.log('world');
+export const world = () => console.log('world');
