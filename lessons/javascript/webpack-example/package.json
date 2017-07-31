@@ -1,0 +1,14 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "Webpack example",
+  "main": "app/main.js",
+  "scripts": {
+    "dev": "webpack",
+    "dev:watch": "webpack -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "3.4.1"
+  }
+}
