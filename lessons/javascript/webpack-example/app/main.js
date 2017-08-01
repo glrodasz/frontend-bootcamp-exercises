@@ -1,4 +1,5 @@
 import { world } from './world';
+import './main.scss';
 
-console.log('Hello');
-world();
+const object = {name: "Guillermo"};
+console.log({...object, lastname: "Rodas"});
