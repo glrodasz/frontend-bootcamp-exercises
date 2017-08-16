@@ -2,7 +2,7 @@
 
 ## Student List
 |Name|📝|📕|📗|🖌|📘|📙|📦|🚀|🎠|💾|💰|💽|👪|🔧|
-|---|---|---|--|---|--|---|--|---|--|---|--|---|--|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |[Alejandro Yepes](https://github.com/lexoye/frontend-bootcamp)|✅|✅|❓|❓|❓|❓|❓|❓|❓|✅|✅|❓|❓|❌|
 |[Alvaro Guerreo](https://github.com/alvarojguerrero/bootcamp-frontend)|✅|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Camila Montelegre](https://github.com/camimontealegre/bootcamp-frontend)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
