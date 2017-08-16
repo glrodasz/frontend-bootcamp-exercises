@@ -6,7 +6,7 @@
 |[Alejandro Yepes](https://github.com/lexoye/frontend-bootcamp)|✅|✅|❓|❓|❓|❓|❓|❓|❓|✅|✅|❓|❓|❌|
 |[Alvaro Guerreo](https://github.com/alvarojguerrero/bootcamp-frontend)|✅|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Camila Montelegre](https://github.com/camimontealegre/bootcamp-frontend)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
-|[Estefany Aguilar](https://github.com/teffcode/BOOTCAMP_FRONTEND)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
+|[Estefany Aguilar](https://github.com/teffcode/BOOTCAMP_FRONTEND)|✅|✅|✅|✅|✅|✅|❓|❓|❓|✅|✅|✅|❓|✅|
 |[Jhon A. Rodriguez](https://github.com/slimshady060/bootcam-frontend)|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Jhonatan Osorno](https://github.com/milkyway8/Front_End_Bootcamp)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Juan E. Alvarez](https://github.com/juannestebann1/bootcamp-frontend)|✅|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
