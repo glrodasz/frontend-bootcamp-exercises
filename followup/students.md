@@ -14,9 +14,9 @@
 |[Lina Montaño](https://github.com/linamontano/FrontEnd_BootCamp)|✅|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Luisa Vargas](https://github.com/luiivg9410/frontend-bootcamp)|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Miller Ossa](https://github.com/millerOZ/bootcamp-frontend)|✅|✅|✅|✅|✅|✅|❓|✅|✅|✅|✅|✅|✅|✅|
-|[Mileidy Galván](https://github.com/Mileidy25/FrontEnd-Bootcamp)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
+|[Mileidy Galván](https://github.com/Mileidy25/frontend_bootcamp)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
 |[Sara Santacruz](https://github.com/SaraIsabelSantacruz/bootcamp-frontend)|✅|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
-|[Sergio Quintero](https://github.com/checho221/frontend-bootcamp)|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|
+|[Sergio Quintero](https://github.com/checho221/frontend-bootcamp)|❓|❓|❓|❓|❓|❓|❓|❓|❓|❓|✅|✅|✅|❓|
 |[William Serna](https://github.com/wsernalaverde/frontend-bootcamp)|✅|✅|✅|❓|❓|❓|❓|❓|✅|❓|✅|✅|✅|✅|
 
 ## Exercise List
