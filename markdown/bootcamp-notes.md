@@ -4,7 +4,7 @@
 
 **Git** is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. [1]
 
-**Git Bash**
+**Git Bash**  
 Git Bash and Git Shell are two different command line programs which allow you to interface with the underlying git program. _Bash_ is a Linux-based command line (which has been ported over to Windows) while Shell is a native Windows command line. You can use either of them. They'll just have different auxiliary commands, for example Bash has "ls" instead of "dir". [2]
 
 #### Installing Git and Git Bash
