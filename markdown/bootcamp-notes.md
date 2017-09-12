@@ -44,7 +44,7 @@ ssh-keygen -t rsa -b 4096 -C "<Your Email>"
 
 **GitHub** is a web-based Git or version control repository and Internet hosting service. It is mostly used for code. [4]
 
-#### Creating and account in GitHub
+#### Creating an account in GitHub
 
 To create a GitHub account just go to fill your personal data in the form. (Nickname, email and a new password) and click on **Sign up for GitHub**. You need to verified your email after that.
 
